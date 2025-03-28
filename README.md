@@ -107,14 +107,17 @@ These observations highlight the importance of selecting the appropriate search 
 
 ## Conclusions
 
-## Conclusions
-
 This project demonstrates how different search algorithms have advantages and disadvantages depending on the use case. Choosing the right algorithm can make a significant difference in terms of efficiency and performance.
 
 - For large datasets, logarithmic search algorithms (binary, ternary, interpolation) are significantly more efficient than linear search.
 - Jump search offers a balance between the simplicity of linear search and the efficiency of logarithmic searches.
 - The position of the target element directly affects the execution time of linear search but does not significantly impact the other algorithms shown in the graph.
 - Interpolation search demonstrates the best performance among all the algorithms analyzed in this project.
+
+## Coverage
+Coverage generates a report showing what percentage of each code file was covered during testing. The report also shows a summary of the total coverage for the entire project. In this case, 93% of the code was covered during testing.
+
+![Coverage](media/Coverage.png)
 
 
 
